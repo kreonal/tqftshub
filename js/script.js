@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const sheetID = '1Lsc9Oa4haWxAs-SBky6NC7QLH72Q7PQan6oMXLsZfGw'; // Replace with your actual sheet ID
-    const apiKey = 'AIzaSyCFWMwOfHIVzQNPuWoIOyYKlBbmzjZNRh8'; // Replace with your API key
-    const sheetName = 'ChatGPT_Output';
+    const sheetID = process.env.SHEET_ID; // Replace with your actual sheet ID
+    const apiKey = process.env.GOOGLE_API_KEY; // Replace with your API key
+    const sheetName = process.env.SHEET_NAME;
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values/${sheetName}?key=${apiKey}`;
 
     fetch(url)
