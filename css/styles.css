@@ -12,56 +12,11 @@ body {
     padding: 20px;
 }
 
-.header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.logo {
-    width: 150px;
-}
-
 .centered-header {
     text-align: center;
     font-size: 2rem;
     color: #013369; /* NFL blue */
     margin-bottom: 20px;
-}
-
-.menu {
-    margin: 20px 0;
-    text-align: center;
-    background-color: #013369;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.menu li {
-    margin: 0 15px;
-}
-
-.menu a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    background-color: transparent;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.menu a:hover {
-    background-color: #0056b3;
 }
 
 /* Power Rankings Styles */
@@ -84,9 +39,10 @@ body {
     max-width: 800px;
     margin: 15px auto;
     position: relative;
-    overflow: hidden; /* Ensure no overflow */
-    box-sizing: border-box; /* Include padding and borders in width/height */
+    overflow: visible; /* Set to visible to avoid cutting off content */
+    box-sizing: border-box; /* Include padding/border in width/height */
     height: auto; /* Dynamic height */
+    min-height: 200px; /* Ensure the card never gets too short */
 }
 
 /* Left third with power rank number */
@@ -113,6 +69,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    min-height: 200px; /* Ensures the right section doesn't collapse */
     height: auto;
     margin-left: 15px; /* Separate from left third */
 }
@@ -156,6 +113,7 @@ body {
     .card {
         grid-template-columns: 1fr; /* Stack the card vertically on small screens */
         padding: 15px; /* Reduce padding on mobile */
+        min-height: auto; /* Remove height constraint */
     }
 
     .card-right {
