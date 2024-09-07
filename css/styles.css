@@ -84,8 +84,9 @@ body {
     max-width: 800px;
     margin: 15px auto;
     position: relative;
-    overflow: hidden;
-    box-sizing: border-box; /* Ensure the card doesn’t extend beyond its boundaries */
+    overflow: hidden; /* Ensure no overflow */
+    box-sizing: border-box; /* Makes sure padding and borders are included in the element's total width and height */
+    height: auto; /* Allow card to expand dynamically */
 }
 
 /* Left third with power rank number */
@@ -97,6 +98,7 @@ body {
     font-family: 'Bungee Shade', sans-serif;
     font-size: 6rem;
     text-align: center;
+    height: 100%; /* Ensure it takes the full height */
 }
 
 /* Right two-thirds with white background */
@@ -107,6 +109,11 @@ body {
     z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Floating effect */
     width: 100%; /* Ensure full width */
+    height: auto; /* Auto height for flexibility */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px; /* Add a small margin to separate from the left third */
 }
 
 /* Responsive design for mobile */
@@ -119,6 +126,7 @@ body {
     .card-right {
         margin-top: 15px; /* Add spacing on mobile between left and right sections */
         padding: 15px; /* Reduce padding for white layer */
+        margin-left: 0; /* Remove left margin on smaller screens */
     }
 
     .card-left {
