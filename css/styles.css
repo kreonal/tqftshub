@@ -12,6 +12,15 @@ body {
     padding: 20px;
 }
 
+/* Specific logo styles */
+.logo {
+    width: 150px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo */
+}
+
+
 .centered-header {
     text-align: center;
     font-size: 2rem;
