@@ -1,0 +1,195 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+        background-color: #f0f0f0;
+    color: #000;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.centered-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #013369; /* NFL blue */
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    background-color: #013369;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #0056b3;
+}
+
+/* Power Rankings Styles */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Divides the card into thirds */
+    background-color: #013369; /* Blue background for the entire card */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Floating effect */
+}
+
+/* Left third with larger Power Rank number */
+.card-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bungee Shade', sans-serif; /* Retro number font */
+    font-size: 6rem; /* Increase size */
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+}
+
+/* Right two-thirds with white background */
+.card-right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Floating effect */
+    z-index: 1;
+}
+
+/* Team name and details */
+.card-right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-word; /* Handle long team names */
+}
+
+.card-right-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Details section, with the Change field at the top */
+.card-right-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+/* "Change" styled similarly to "Record" */
+.card-right-details p {
+    margin: 5px 0;
+}
+
+
+/* Outlook section */
+.card-right-outlook {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #000;
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 600px) {
+    .card {
+        grid-template-columns: 1fr; /* Stack the content vertically */
+    }
+
+    .card-right {
+        margin-left: 0; /* No margin on small screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .card-left {
+        font-size: 4rem; /* Reduce power rank size on small screens */
+    }
+}
+
+/* Card-left for power rank number */
+.card-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #013369;
+    font-size: 8rem;
+    width: 100%; /* Make it take up the full width of the third */
+    height: 100%;
+    position: relative; /* Remove absolute positioning from .power-rank */
+}
+
+/* Larger power rank number */
+.power-rank {
+    color: white;
+    font-family: 'Bungee Shade', sans-serif; /* Retro number font */
+    font-size: 5rem; /* Large size for the number */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Use relative instead of absolute positioning */
+    z-index: 1; /* Ensure it's on top */
+}
+
+
+.card-left i {
+    margin-top: 20px; /* Adjust spacing for arrow */
+    font-size: 3rem;
+}
