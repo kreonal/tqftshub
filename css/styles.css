@@ -78,27 +78,25 @@ body {
 .card {
     display: grid;
     grid-template-columns: 1fr 2fr; /* Divides the card into thirds */
-    background-color: #013369; /* Blue background for the entire card */
+    background-color: #013369; /* NFL blue background */
     border-radius: 10px;
     padding: 20px;
     max-width: 800px;
     margin: 15px auto;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Floating effect */
+    box-sizing: border-box; /* Ensure the card doesn’t extend beyond its boundaries */
 }
 
-/* Left third with larger Power Rank number */
+/* Left third with power rank number */
 .card-left {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: 'Bungee Shade', sans-serif; /* Retro number font */
-    font-size: 6rem; /* Increase size */
-    font-weight: bold;
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 6rem;
     text-align: center;
-    height: 100%;
 }
 
 /* Right two-thirds with white background */
@@ -106,10 +104,27 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Floating effect */
     z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Floating effect */
+    width: 100%; /* Ensure full width */
 }
 
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .card {
+        grid-template-columns: 1fr; /* Stack the card vertically on small screens */
+        padding: 15px; /* Reduce padding on mobile */
+    }
+
+    .card-right {
+        margin-top: 15px; /* Add spacing on mobile between left and right sections */
+        padding: 15px; /* Reduce padding for white layer */
+    }
+
+    .card-left {
+        font-size: 4rem; /* Adjust power rank size for mobile */
+    }
+}
 /* Team name and details */
 .card-right-header {
     display: flex;
