@@ -12,6 +12,15 @@ body {
     padding: 20px;
 }
 
+/* Logo Styling */
+.logo {
+    width: 150px; /* Set a fixed width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo */
+}
+
+/* Centered header for page titles */
 .centered-header {
     text-align: center;
     font-size: 2rem;
@@ -31,18 +40,16 @@ body {
 
 /* Card Styles */
 .card {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /* Divides the card into thirds */
+    display: flex;
     background-color: #013369; /* NFL blue background */
     border-radius: 10px;
     padding: 20px;
     max-width: 800px;
     margin: 15px auto;
     position: relative;
-    overflow: hidden; /* Ensure no overflow */
     box-sizing: border-box; /* Include padding/border in width/height */
-    height: auto; /* Dynamic height */
-    min-height: 300px; /* Make sure there's a minimum height for all cards */
+    flex-direction: row;
+    align-items: stretch; /* Ensure both columns stretch equally */
 }
 
 /* Left third with power rank number */
@@ -54,7 +61,7 @@ body {
     font-size: 8rem;
     color: white;
     font-family: 'Bungee Shade', sans-serif; /* Retro number font */
-    height: 100%; /* Fill entire height */
+    width: 120px; /* Fixed width for the left third */
 }
 
 /* Right two-thirds with white background */
@@ -64,12 +71,10 @@ body {
     padding: 20px;
     z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Floating effect */
+    flex-grow: 1; /* Ensures the white layer takes up remaining space */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    margin-left: 15px; /* Separate from left third */
-    height: 100%; /* Match the height of the card */
 }
 
 /* Team name and details */
@@ -109,17 +114,29 @@ body {
 /* Responsive design for mobile */
 @media (max-width: 768px) {
     .card {
-        grid-template-columns: 1fr; /* Stack the card vertically on small screens */
-        padding: 15px; /* Reduce padding on mobile */
+        flex-direction: column;
+        padding: 15px;
     }
 
     .card-right {
-        margin-top: 15px; /* Add spacing between sections on mobile */
+        margin-top: 15px;
         padding: 15px;
-        margin-left: 0; /* Remove left margin on smaller screens */
     }
 
     .card-left {
-        font-size: 4rem; /* Adjust power rank size for mobile */
+        font-size: 4rem;
+        width: 100%; /* Full width for left section */
+        justify-content: center;
     }
+}
+
+/* Power rank number styling */
+.power-rank {
+    color: white;
+    font-family: 'Bungee Shade', sans-serif; /* Retro number font */
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
 }
