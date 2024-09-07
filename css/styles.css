@@ -12,15 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Specific logo styles */
-.logo {
-    width: 150px; /* Set a maximum width */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    margin: 0 auto; /* Center the logo */
-}
-
-
 .centered-header {
     text-align: center;
     font-size: 2rem;
@@ -48,10 +39,10 @@ body {
     max-width: 800px;
     margin: 15px auto;
     position: relative;
-    overflow: visible; /* Set to visible to avoid cutting off content */
+    overflow: hidden; /* Ensure no overflow */
     box-sizing: border-box; /* Include padding/border in width/height */
     height: auto; /* Dynamic height */
-    min-height: 200px; /* Ensure the card never gets too short */
+    min-height: 300px; /* Make sure there's a minimum height for all cards */
 }
 
 /* Left third with power rank number */
@@ -61,10 +52,9 @@ body {
     justify-content: center;
     background-color: #013369;
     font-size: 8rem;
-    width: 100%; /* Full width of the left third */
-    height: 100%;
     color: white;
     font-family: 'Bungee Shade', sans-serif; /* Retro number font */
+    height: 100%; /* Fill entire height */
 }
 
 /* Right two-thirds with white background */
@@ -78,9 +68,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    min-height: 200px; /* Ensures the right section doesn't collapse */
-    height: auto;
     margin-left: 15px; /* Separate from left third */
+    height: 100%; /* Match the height of the card */
 }
 
 /* Team name and details */
@@ -122,7 +111,6 @@ body {
     .card {
         grid-template-columns: 1fr; /* Stack the card vertically on small screens */
         padding: 15px; /* Reduce padding on mobile */
-        min-height: auto; /* Remove height constraint */
     }
 
     .card-right {
@@ -134,21 +122,4 @@ body {
     .card-left {
         font-size: 4rem; /* Adjust power rank size for mobile */
     }
-}
-
-/* Larger power rank number */
-.power-rank {
-    color: white;
-    font-family: 'Bungee Shade', sans-serif; /* Retro number font */
-    font-size: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-
-/* Arrow style */
-.card-left i {
-    margin-top: 20px; /* Adjust spacing for arrow */
-    font-size: 3rem;
 }
