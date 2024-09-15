@@ -1,3 +1,4 @@
+<!-- hall_of_fame.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
-    <!-- Logo and Menu -->
+    <!-- Header with Logo -->
     <div class="header">
         <img src="https://i.ibb.co/hWL4Pwb/SFLtransparent.png" alt="SFL Logo" class="logo">
         <!-- Navigation Menu -->
@@ -23,14 +22,13 @@
         </nav>
     </div>
 
-    <!-- Power Rankings Page (default) -->
-    <div id="powerRankings" class="page active">
-        <h1 class="centered-header">Week 2 Power Rankings</h1>
-        <div class="card-container" id="powerRankingsContainer"></div>
-    </div>
+    <h1 class="centered-header">The Quest for the Shahbaz Hall of Fame Leaderboard</h1>
+    <p>HOF Score is a stat that tracks the career performance of managers in our league. 100 points is the cutoff for Hall of Famers. The formula is: 1 point per active season, .25 points per win, 3 points per playoff appearance, 20 points per championship, 8 points per second place finish, 3 points per third place finish, and 3 points per scoring.</p>
 
-    <!-- Script to load rankings -->
-    <script src="js/script.js"></script>
+    <!-- Hall of Fame card container -->
+    <div class="card-container" id="hofContainer"></div>
 
+    <!-- Script to load Hall of Fame data -->
+    <script src="js/hof.js"></script>
 </body>
 </html>

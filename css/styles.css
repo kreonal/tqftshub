@@ -57,7 +57,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #013369;
+    /* background-color: #013369; */
     font-size: 8rem;
     color: white;
     font-family: 'Bungee Shade', sans-serif; /* Retro number font */
@@ -147,4 +147,116 @@ body {
 .card-left i {
     margin-top: 20px; /* Adjust spacing for arrow */
     font-size: 3rem;
+}
+
+
+/* Hall of Fame Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #013369;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Make table responsive */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.8rem;
+    }
+}
+
+/* Card with a gold background for HOF managers */
+.card-gold {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #d29e1f; /* Gold background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 200px;
+}
+
+/* Left section with HOF score */
+.card-gold .card-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d29e1f; /* Gold color for the left side */
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+/* Right section with manager details */
+.card-gold .card-right {
+   background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Floating effect */
+    flex-grow: 1; /* Ensures the white layer takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px; /* Increase margin between left and right sections */
+}
+
+
+/* Navigation Menu Styling */
+.menu {
+    background-color: #013369; /* Blue background for the menu bar */
+    padding: 15px 0; /* Add some padding to the bar */
+    width: 100%; /* Full width across the screen */
+    text-align: center; /* Center the menu */
+    position: relative;
+    top: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Inline block for centering the list */
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px; /* Space between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white; /* White text for the menu items */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #d29e1f; /* Gold color on hover */
 }
