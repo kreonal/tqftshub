@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <h2>${team["Team Name"]} (${team.Manager})</h2>
                         </div>
                         <div class="card-right-details">
-                            <p>Change: ${team["Power Ranking Change"]}<br>Record: ${team.Wins}-${team.Losses}<br>Avg Points: ${team["AVG POINTS"]}<br>BOOM%: ${team["BOOM%"]}</p>
+                            <p>Change: ${team["Power Ranking Change"]}<br>Record: ${team.Wins}-${team.Losses}<br>Avg Points: ${team["AVG POINTS"]}<br>BOOM%: ${team["BOOM %"]}</p>
                             <p>Scoring Rank: ${ordinalSuffix(team["Scoring Rank"])}<br>Consistency Rank: ${ordinalSuffix(team["Consistency Rank"])}<br>Roster Rank: ${ordinalSuffix(team["Roster Rank"])}<br>BUST%: ${team["BUST%"]}</p>
                         </div>
                         <div class="card-right-outlook">
