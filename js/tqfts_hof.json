@@ -16,7 +16,7 @@
   {
     "Manager": "John",
     "Years Active": "2011-Present",
-    "HOF Rank": 3,
+    "HOF Rank": 2,
     "Years": 14,
     "Wins": 100,
     "Win %": 0.54,
@@ -30,7 +30,7 @@
   {
     "Manager": "Kendall",
     "Years Active": "2011-Present",
-    "HOF Rank": 2,
+    "HOF Rank": 3,
     "Years": 14,
     "Wins": 105,
     "Win %": 0.565,
@@ -86,7 +86,7 @@
   {
     "Manager": "Matt",
     "Years Active": "2011-Present",
-    "HOF Rank": 11,
+    "HOF Rank": 7,
     "Years": 14,
     "Wins": 81,
     "Win %": 0.438,
@@ -100,7 +100,7 @@
   {
     "Manager": "Nick",
     "Years Active": "2014-Present",
-    "HOF Rank": 10,
+    "HOF Rank": 8,
     "Years": 11,
     "Wins": 84,
     "Win %": 0.571,
@@ -114,7 +114,7 @@
   {
     "Manager": "David",
     "Years Active": "2011-2021",
-    "HOF Rank": 7,
+    "HOF Rank": 9,
     "Years": 11,
     "Wins": 71,
     "Win %": 0.493,
@@ -128,7 +128,7 @@
   {
     "Manager": "Aaron",
     "Years Active": "2014-Present",
-    "HOF Rank": 8,
+    "HOF Rank": 10,
     "Years": 11,
     "Wins": 75,
     "Win %": 0.51,
@@ -142,7 +142,7 @@
   {
     "Manager": "Prashant",
     "Years Active": "2019-Present",
-    "HOF Rank": 9,
+    "HOF Rank": 11,
     "Years": 6,
     "Wins": 50,
     "Win %": 0.61,
@@ -170,7 +170,7 @@
   {
     "Manager": "Henry",
     "Years Active": "2015-Present",
-    "HOF Rank": 14,
+    "HOF Rank": 13,
     "Years": 10,
     "Wins": 76,
     "Win %": 0.567,
@@ -184,7 +184,7 @@
   {
     "Manager": "Shaun",
     "Years Active": "2011-Present",
-    "HOF Rank": 13,
+    "HOF Rank": 14,
     "Years": 14,
     "Wins": 84,
     "Win %": 0.46,
