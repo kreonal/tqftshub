@@ -1,8 +1,23 @@
 [
   {
+    "Manager": "Kendall",
+    "Years Active": "2011-Present",
+    "HOF Rank": 1,
+    "Years": 15,
+    "Wins": 117,
+    "Win %": 0.585,
+    "Championships": 2,
+    "Second Place": 0,
+    "Third Place": 0,
+    "Playoff Appearances": 10,
+    "Scoring Titles": 5,
+    "New HOF Score": 129.25,
+    "Active": "Y"
+  },
+  {
     "Manager": "Tracy",
     "Years Active": "2012-2019",
-    "HOF Rank": 1,
+    "HOF Rank": 2,
     "Years": 8,
     "Wins": 56,
     "Win %": 0.543,
@@ -11,110 +26,118 @@
     "Third Place": 1,
     "Playoff Appearances": 6,
     "Scoring Titles": 0,
-    "New HOF Score": 111
+    "New HOF Score": 111,
+    "Active": "N"
   },
   {
     "Manager": "John",
     "Years Active": "2011-Present",
-    "HOF Rank": 2,
-    "Years": 14,
-    "Wins": 100,
-    "Win %": 0.54,
+    "HOF Rank": 3,
+    "Years": 15,
+    "Wins": 104,
+    "Win %": 0.523,
     "Championships": 1,
     "Second Place": 2,
     "Third Place": 1,
     "Playoff Appearances": 8,
     "Scoring Titles": 1,
-    "New HOF Score": 105
+    "New HOF Score": 107,
+    "Active": "Y"
   },
   {
-    "Manager": "Kendall",
-    "Years Active": "2011-Present",
-    "HOF Rank": 3,
+    "Manager": "Anthony",
+    "Years Active": "2012-Present",
+    "HOF Rank": 4,
     "Years": 14,
-    "Wins": 105,
-    "Win %": 0.565,
-    "Championships": 1,
+    "Wins": 86,
+    "Win %": 0.463,
+    "Championships": 2,
     "Second Place": 0,
-    "Third Place": 0,
-    "Playoff Appearances": 9,
-    "Scoring Titles": 4,
-    "New HOF Score": 99.25
+    "Third Place": 1,
+    "Playoff Appearances": 5,
+    "Scoring Titles": 0,
+    "New HOF Score": 93.5,
+    "Active": "Y"
   },
   {
     "Manager": "Karan",
     "Years Active": "2011-2019, 2021-Present",
-    "HOF Rank": 4,
-    "Years": 13,
-    "Wins": 87,
-    "Win %": 0.506,
+    "HOF Rank": 5,
+    "Years": 14,
+    "Wins": 92,
+    "Win %": 0.495,
     "Championships": 1,
     "Second Place": 1,
     "Third Place": 1,
     "Playoff Appearances": 6,
     "Scoring Titles": 2,
-    "New HOF Score": 89.75
-  },
-  {
-    "Manager": "Anthony",
-    "Years Active": "2012-Present",
-    "HOF Rank": 5,
-    "Years": 13,
-    "Wins": 76,
-    "Win %": 0.442,
-    "Championships": 2,
-    "Second Place": 0,
-    "Third Place": 0,
-    "Playoff Appearances": 4,
-    "Scoring Titles": 0,
-    "New HOF Score": 84
+    "New HOF Score": 92,
+    "Active": "Y"
   },
   {
     "Manager": "Calvin",
     "Years Active": "2014-Present",
     "HOF Rank": 6,
-    "Years": 11,
-    "Wins": 84,
+    "Years": 12,
+    "Wins": 92,
     "Win %": 0.571,
     "Championships": 1,
     "Second Place": 1,
     "Third Place": 0,
-    "Playoff Appearances": 6,
+    "Playoff Appearances": 7,
     "Scoring Titles": 1,
-    "New HOF Score": 81
+    "New HOF Score": 87,
+    "Active": "Y"
   },
   {
     "Manager": "Matt",
     "Years Active": "2011-Present",
     "HOF Rank": 7,
-    "Years": 14,
-    "Wins": 81,
-    "Win %": 0.438,
+    "Years": 15,
+    "Wins": 86,
+    "Win %": 0.433,
     "Championships": 1,
     "Second Place": 1,
     "Third Place": 1,
     "Playoff Appearances": 5,
     "Scoring Titles": 0,
-    "New HOF Score": 80.25
+    "New HOF Score": 82.5,
+    "Active": "Y"
   },
   {
     "Manager": "Nick",
     "Years Active": "2014-Present",
     "HOF Rank": 8,
-    "Years": 11,
-    "Wins": 84,
+    "Years": 12,
+    "Wins": 92,
     "Win %": 0.571,
     "Championships": 0,
     "Second Place": 0,
     "Third Place": 4,
-    "Playoff Appearances": 8,
+    "Playoff Appearances": 9,
     "Scoring Titles": 1,
-    "New HOF Score": 71
+    "New HOF Score": 77,
+    "Active": "Y"
+  },
+  {
+    "Manager": "Aaron",
+    "Years Active": "2014-Present",
+    "HOF Rank": 9,
+    "Years": 12,
+    "Wins": 81,
+    "Win %": 0.503,
+    "Championships": 0,
+    "Second Place": 2,
+    "Third Place": 1,
+    "Playoff Appearances": 7,
+    "Scoring Titles": 0,
+    "New HOF Score": 72.25,
+    "Active": "Y"
   },
   {
     "Manager": "David",
     "Years Active": "2011-2021",
-    "HOF Rank": 9,
+    "HOF Rank": 10,
     "Years": 11,
     "Wins": 71,
     "Win %": 0.493,
@@ -123,105 +146,98 @@
     "Third Place": 0,
     "Playoff Appearances": 6,
     "Scoring Titles": 1,
-    "New HOF Score": 69.75
-  },
-  {
-    "Manager": "Aaron",
-    "Years Active": "2014-Present",
-    "HOF Rank": 10,
-    "Years": 11,
-    "Wins": 75,
-    "Win %": 0.51,
-    "Championships": 0,
-    "Second Place": 2,
-    "Third Place": 1,
-    "Playoff Appearances": 7,
-    "Scoring Titles": 0,
-    "New HOF Score": 69.75
+    "New HOF Score": 69.75,
+    "Active": "N"
   },
   {
     "Manager": "Prashant",
     "Years Active": "2019-Present",
     "HOF Rank": 11,
-    "Years": 6,
-    "Wins": 50,
-    "Win %": 0.61,
+    "Years": 7,
+    "Wins": 54,
+    "Win %": 0.563,
     "Championships": 1,
     "Second Place": 1,
     "Third Place": 0,
     "Playoff Appearances": 5,
     "Scoring Titles": 1,
-    "New HOF Score": 64.5
+    "New HOF Score": 66.5,
+    "Active": "Y"
   },
   {
     "Manager": "Rohan",
     "Years Active": "2011-Present",
     "HOF Rank": 12,
-    "Years": 14,
-    "Wins": 81,
-    "Win %": 0.435,
+    "Years": 15,
+    "Wins": 90,
+    "Win %": 0.45,
     "Championships": 0,
     "Second Place": 1,
     "Third Place": 0,
-    "Playoff Appearances": 4,
+    "Playoff Appearances": 5,
     "Scoring Titles": 0,
-    "New HOF Score": 54.25
+    "New HOF Score": 60.5,
+    "Active": "Y"
   },
   {
     "Manager": "Henry",
     "Years Active": "2015-Present",
     "HOF Rank": 13,
-    "Years": 10,
-    "Wins": 76,
-    "Win %": 0.567,
+    "Years": 11,
+    "Wins": 85,
+    "Win %": 0.574,
     "Championships": 0,
     "Second Place": 1,
     "Third Place": 0,
-    "Playoff Appearances": 5,
+    "Playoff Appearances": 6,
     "Scoring Titles": 0,
-    "New HOF Score": 52
+    "New HOF Score": 58.25,
+    "Active": "Y"
+  },
+  {
+    "Manager": "Minh",
+    "Years Active": "2022-Present",
+    "HOF Rank": 14,
+    "Years": 4,
+    "Wins": 34,
+    "Win %": 0.607,
+    "Championships": 1,
+    "Second Place": 1,
+    "Third Place": 1,
+    "Playoff Appearances": 4,
+    "Scoring Titles": 0,
+    "New HOF Score": 55.5,
+    "Active": "Y"
   },
   {
     "Manager": "Shaun",
     "Years Active": "2011-Present",
-    "HOF Rank": 14,
-    "Years": 14,
-    "Wins": 84,
-    "Win %": 0.46,
+    "HOF Rank": 15,
+    "Years": 15,
+    "Wins": 87,
+    "Win %": 0.443,
     "Championships": 0,
     "Second Place": 0,
     "Third Place": 0,
     "Playoff Appearances": 5,
     "Scoring Titles": 0,
-    "New HOF Score": 50
+    "New HOF Score": 51.75,
+    "Active": "Y"
   },
   {
     "Manager": "Zack",
     "Years Active": "2017-Present",
-    "HOF Rank": 15,
-    "Years": 8,
-    "Wins": 58,
-    "Win %": 0.537,
+    "HOF Rank": 16,
+    "Years": 9,
+    "Wins": 63,
+    "Win %": 0.516,
     "Championships": 0,
     "Second Place": 0,
     "Third Place": 1,
     "Playoff Appearances": 5,
     "Scoring Titles": 2,
-    "New HOF Score": 46.5
-  },
-  {
-    "Manager": "Minh",
-    "Years Active": "2022-Present",
-    "HOF Rank": 16,
-    "Years": 3,
-    "Wins": 24,
-    "Win %": 0.571,
-    "Championships": 1,
-    "Second Place": 0,
-    "Third Place": 1,
-    "Playoff Appearances": 3,
-    "Scoring Titles": 0,
-    "New HOF Score": 41
+    "New HOF Score": 48.75,
+    "Active": "Y"
   },
   {
     "Manager": "Bryan",
@@ -235,12 +251,28 @@
     "Third Place": 0,
     "Playoff Appearances": 1,
     "Scoring Titles": 0,
-    "New HOF Score": 30.5
+    "New HOF Score": 30.5,
+    "Active": "N"
+  },
+  {
+    "Manager": "Alfred",
+    "Years Active": "2021-Present",
+    "HOF Rank": 18,
+    "Years": 5,
+    "Wins": 30,
+    "Win %": 0.429,
+    "Championships": 0,
+    "Second Place": 1,
+    "Third Place": 0,
+    "Playoff Appearances": 2,
+    "Scoring Titles": 0,
+    "New HOF Score": 26.5,
+    "Active": "Y"
   },
   {
     "Manager": "Treyvin",
     "Years Active": "2011-2017",
-    "HOF Rank": 18,
+    "HOF Rank": 19,
     "Years": 7,
     "Wins": 40,
     "Win %": 0.445,
@@ -249,26 +281,28 @@
     "Third Place": 0,
     "Playoff Appearances": 3,
     "Scoring Titles": 0,
-    "New HOF Score": 26
+    "New HOF Score": 26,
+    "Active": "N"
   },
   {
-    "Manager": "Alfred",
-    "Years Active": "2021-Present",
-    "HOF Rank": 19,
+    "Manager": "Joey",
+    "Years Active": "2022-Present",
+    "HOF Rank": 20,
     "Years": 4,
-    "Wins": 24,
-    "Win %": 0.429,
+    "Wins": 28,
+    "Win %": 0.5,
     "Championships": 0,
-    "Second Place": 1,
+    "Second Place": 0,
     "Third Place": 0,
     "Playoff Appearances": 2,
     "Scoring Titles": 0,
-    "New HOF Score": 24
+    "New HOF Score": 17,
+    "Active": "Y"
   },
   {
     "Manager": "Peter",
     "Years Active": "2014-2016",
-    "HOF Rank": 20,
+    "HOF Rank": 21,
     "Years": 3,
     "Wins": 20,
     "Win %": 0.513,
@@ -277,12 +311,13 @@
     "Third Place": 0,
     "Playoff Appearances": 2,
     "Scoring Titles": 1,
-    "New HOF Score": 17
+    "New HOF Score": 17,
+    "Active": "N"
   },
   {
     "Manager": "Daniel",
     "Years Active": "2018-2021",
-    "HOF Rank": 21,
+    "HOF Rank": 22,
     "Years": 4,
     "Wins": 26,
     "Win %": 0.491,
@@ -291,12 +326,13 @@
     "Third Place": 0,
     "Playoff Appearances": 2,
     "Scoring Titles": 0,
-    "New HOF Score": 16.5
+    "New HOF Score": 16.5,
+    "Active": "N"
   },
   {
     "Manager": "A.J.",
     "Years Active": "2013-2018",
-    "HOF Rank": 22,
+    "HOF Rank": 23,
     "Years": 6,
     "Wins": 29,
     "Win %": 0.372,
@@ -305,12 +341,13 @@
     "Third Place": 0,
     "Playoff Appearances": 1,
     "Scoring Titles": 0,
-    "New HOF Score": 16.25
+    "New HOF Score": 16.25,
+    "Active": "N"
   },
   {
     "Manager": "Zach",
     "Years Active": "2011-2012",
-    "HOF Rank": 23,
+    "HOF Rank": 24,
     "Years": 2,
     "Wins": 13,
     "Win %": 0.519,
@@ -319,21 +356,8 @@
     "Third Place": 0,
     "Playoff Appearances": 2,
     "Scoring Titles": 0,
-    "New HOF Score": 11.25
-  },
-  {
-    "Manager": "Joey",
-    "Years Active": "2022-Present",
-    "HOF Rank": 24,
-    "Years": 3,
-    "Wins": 20,
-    "Win %": 0.476,
-    "Championships": 0,
-    "Second Place": 0,
-    "Third Place": 0,
-    "Playoff Appearances": 1,
-    "Scoring Titles": 0,
-    "New HOF Score": 11
+    "New HOF Score": 11.25,
+    "Active": "N"
   },
   {
     "Manager": "Melody",
@@ -347,7 +371,8 @@
     "Third Place": 0,
     "Playoff Appearances": 1,
     "Scoring Titles": 0,
-    "New HOF Score": 8.25
+    "New HOF Score": 8.25,
+    "Active": "N"
   },
   {
     "Manager": "Chloe",
@@ -361,7 +386,8 @@
     "Third Place": 0,
     "Playoff Appearances": 1,
     "Scoring Titles": 0,
-    "New HOF Score": 7.75
+    "New HOF Score": 7.75,
+    "Active": "N"
   },
   {
     "Manager": "Sandra",
@@ -375,7 +401,8 @@
     "Third Place": 0,
     "Playoff Appearances": 1,
     "Scoring Titles": 0,
-    "New HOF Score": 7.75
+    "New HOF Score": 7.75,
+    "Active": "N"
   },
   {
     "Manager": "B.J.",
@@ -389,7 +416,8 @@
     "Third Place": 0,
     "Playoff Appearances": 0,
     "Scoring Titles": 0,
-    "New HOF Score": 2.5
+    "New HOF Score": 2.5,
+    "Active": "N"
   },
   {
     "Manager": "Tony",
@@ -403,7 +431,8 @@
     "Third Place": 0,
     "Playoff Appearances": 0,
     "Scoring Titles": 0,
-    "New HOF Score": 2
+    "New HOF Score": 2,
+    "Active": "N"
   },
   {
     "Manager": "Simon",
@@ -417,6 +446,7 @@
     "Third Place": 0,
     "Playoff Appearances": 0,
     "Scoring Titles": 0,
-    "New HOF Score": 1.75
+    "New HOF Score": 1.75,
+    "Active": "N"
   }
 ]
