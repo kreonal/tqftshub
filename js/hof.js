@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <h2>${manager.Manager}, (${manager["Years Active"]})
                         </div>
                         <div class="card-right-details">
-                            <p>HOF Score: ${manager["New HOF Score"]}<br>Seasons: ${manager.Years}<br>Wins: ${manager.Wins}<br>Win %: ${(manager["Win %"] * 100).toFixed(2)}%</p>
+                            <p>HOF Score: ${manager["New HOF Score"]}<br>Seasons: ${manager.Years}<br>Score/Season: ${manager["AVG HOF Score Per Season"]}<br>Wins: ${manager.Wins}<br>Win %: ${(manager["Win %"] * 100).toFixed(2)}%</p>
                             <p>Playoff Appearances: ${manager["Playoff Appearances"]}<br>Championships: ${manager.Championships}<br>2nd Place: ${manager["Second Place"]}<br>3rd Place: ${manager["Third Place"]}<br>Scoring Titles: ${manager["Scoring Titles"]}</p>
                         </div>
                     </div>
